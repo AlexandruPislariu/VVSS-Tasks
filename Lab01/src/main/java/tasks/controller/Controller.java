@@ -17,6 +17,7 @@ import tasks.model.Task;
 import tasks.services.DateService;
 import tasks.services.TaskIO;
 import tasks.services.TasksService;
+import tasks.utils.ErrorMessage;
 import tasks.view.Main;
 
 import java.io.IOException;
@@ -29,6 +30,8 @@ public class Controller {
     public ObservableList<Task> tasksList;
     TasksService service;
     DateService dateService;
+
+    ErrorMessage errorMessage = new ErrorMessage();
 
     public static Stage editNewStage;
     public static Stage infoStage;
@@ -67,6 +70,16 @@ public class Controller {
                     tasks.setItems(tasksList);
                 }
         );
+
+        tasks.setRowFactory(tv -> {
+            TableRow<Task> row = new TableRow<>();
+            row.setOnMouseClicked(event -> {
+                if (event.getClickCount() == 2 && (! row.isEmpty()) ) {
+                    tasks.getSelectionModel().clearSelection();
+                }
+            });
+            return row ;
+        });
     }
 
     @FXML
@@ -89,7 +102,7 @@ public class Controller {
             editNewStage = new Stage();
             NewEditController.setCurrentStage(editNewStage);
             FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/new-edit-task.fxml"));
-            Parent root = loader.load();//getClass().getResource("/fxml/new-edit-task.fxml"));
+            Parent root = loader.load();
             NewEditController editCtrl = loader.getController();
             editCtrl.setService(service);
             editCtrl.setTasksList(tasksList);
@@ -125,6 +138,8 @@ public class Controller {
         }
         catch (IOException e){
             log.error("error loading task-info.fxml");
+
+            errorMessage.showError("Error", "Select a task");
         }
     }
     @FXML
