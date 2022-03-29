@@ -18,7 +18,9 @@ import tasks.services.DateService;
 import tasks.services.TaskIO;
 import tasks.services.TasksService;
 import tasks.utils.ErrorMessage;
+import tasks.view.Main;
 
+import java.io.File;
 import java.io.IOException;
 import java.time.LocalDate;
 import java.util.Date;
@@ -42,6 +44,8 @@ public class NewEditController {
     private static Stage currentStage;
 
     private ErrorMessage errorMessage = new ErrorMessage();
+
+    private File tasksFile = Main.savedTasksFile;
 
     private Task currentTask;
     private ObservableList<Task> tasksList;
@@ -155,7 +159,11 @@ public class NewEditController {
         if (incorrectInputMade) return;
 
         if (currentTask == null) {//no task was chosen -> add button was pressed
-            tasksList.add(collectedFieldsTask);
+            try {
+                service.addTask(collectedFieldsTask, tasksList, tasksFile);
+            } catch (IllegalArgumentException ex) {
+                errorMessage.showError("Arguments error", ex.getMessage());
+            }
         } else {
             for (int i = 0; i < tasksList.size(); i++) {
                 if (currentTask.equals(tasksList.get(i))) {
@@ -164,7 +172,7 @@ public class NewEditController {
             }
             currentTask = null;
         }
-        TaskIO.rewriteFile(tasksList);
+        TaskIO.rewriteFile(tasksList, tasksFile);
         Controller.editNewStage.close();
     }
 

@@ -147,3 +147,23 @@
 2022-03-15 15:47:41 INFO  Main:41 - application start
 2022-03-15 15:47:42 INFO  Controller:87 - Main controller initializing
 2022-03-15 15:47:45 INFO  NewEditController:97 - new/edit window initializing
+2022-03-15 19:12:40 INFO  Main:36 - saved data reading
+2022-03-15 19:12:40 ERROR TaskIO:92 - IO exception reading or writing file
+2022-03-15 19:12:40 INFO  Main:41 - application start
+2022-03-15 19:12:40 INFO  Controller:87 - Main controller initializing
+2022-03-29 14:56:46 INFO  Main:36 - saved data reading
+2022-03-29 14:56:46 ERROR TaskIO:92 - IO exception reading or writing file
+2022-03-29 14:56:46 INFO  Main:41 - application start
+2022-03-29 14:56:47 INFO  Controller:87 - Main controller initializing
+2022-03-29 14:56:56 INFO  NewEditController:97 - new/edit window initializing
+2022-03-29 15:01:08 INFO  NewEditController:97 - new/edit window initializing
+2022-03-29 16:11:47 ERROR Task:36 - time below bound
+2022-03-29 16:11:47 ERROR Task:36 - time below bound
+2022-03-29 16:12:43 ERROR Task:36 - time below bound
+2022-03-29 16:12:43 ERROR Task:36 - time below bound
+2022-03-29 16:13:26 ERROR Task:36 - time below bound
+2022-03-29 16:13:26 ERROR Task:36 - time below bound
+2022-03-29 16:14:53 ERROR Task:36 - time below bound
+2022-03-29 16:14:53 ERROR Task:36 - time below bound
+2022-03-29 16:17:06 ERROR Task:36 - time below bound
+2022-03-29 16:17:07 ERROR Task:36 - time below bound

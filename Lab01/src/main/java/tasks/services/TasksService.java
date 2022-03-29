@@ -5,7 +5,9 @@ import javafx.collections.ObservableList;
 import tasks.model.ArrayTaskList;
 import tasks.model.Task;
 import tasks.model.TasksOperations;
+import tasks.validators.TaskValidator;
 
+import java.io.File;
 import java.util.Date;
 
 public class TasksService {
@@ -50,5 +52,12 @@ public class TasksService {
         //Iterable<Task> filtered = tasks.incoming(start, end);
 
         return filtered;
+    }
+
+    public Task addTask(Task task, ObservableList<Task> tasks, File tasksFile) {
+        TaskValidator.validate(task);
+        tasks.add(task);
+        TaskIO.rewriteFile(tasks,tasksFile);
+        return task;
     }
 }

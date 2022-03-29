@@ -1,25 +1,27 @@
 
 E
-java:S3740'"/Provide the parametrized type for this generic.(„÷–∑
+java:S3740*"/Provide the parametrized type for this generic.(„÷–∑
 D
-java:S3740*"/Provide the parametrized type for this generic.(õÉ∆g
+java:S3740-"/Provide the parametrized type for this generic.(õÉ∆g
+<
+java:S1170%"!Make this final field static too.(ﬁÁÍã˝ˇˇˇˇ
 Q
-java:S2696B"6Make the enclosing method "static" or remove this set.(ÙÈΩ∫˚ˇˇˇˇ
+java:S2696E"6Make the enclosing method "static" or remove this set.(ÙÈΩ∫˚ˇˇˇˇ
 L
-java:S2696f"6Make the enclosing method "static" or remove this set.(„Øõ
+java:S2696j"6Make the enclosing method "static" or remove this set.(„Øõ
 L
-java:S2696à"6Make the enclosing method "static" or remove this set.(ñûÃJ
+java:S2696ç"6Make the enclosing method "static" or remove this set.(ñûÃJ
 p
-java:S1104"UMake tasksList a static final constant or non-public and provide accessors if needed.(ﬂ∑ä¢ˇˇˇˇˇ
-u
-java:S1104$"XMake editNewStage a static final constant or non-public and provide accessors if needed.(øâÇ◊8ÄÜãÔ¯/
-w
-java:S1104%"UMake infoStage a static final constant or non-public and provide accessors if needed.(ﬂœ¨‹˘ˇˇˇˇ8™®âÔ¯/
+java:S1104"UMake tasksList a static final constant or non-public and provide accessors if needed.(ﬂ∑ä¢ˇˇˇˇˇ
+n
+java:S1104'"XMake editNewStage a static final constant or non-public and provide accessors if needed.(øâÇ◊
+p
+java:S1104("UMake infoStage a static final constant or non-public and provide accessors if needed.(ﬂœ¨‹˘ˇˇˇˇ
 k
-java:S1104'"UMake mainTable a static final constant or non-public and provide accessors if needed.(„÷–∑
-O
-java:S1444$"2Make this "public static editNewStage" field final(øâÇ◊8ÇÜãÔ¯/
-Q
-java:S1444%"/Make this "public static infoStage" field final(ﬂœ¨‹˘ˇˇˇˇ8™®âÔ¯/
+java:S1104*"UMake mainTable a static final constant or non-public and provide accessors if needed.(„÷–∑
+H
+java:S1444'"2Make this "public static editNewStage" field final(øâÇ◊
+J
+java:S1444("/Make this "public static infoStage" field final(ﬂœ¨‹˘ˇˇˇˇ
 E
-java:S1444'"/Make this "public static mainTable" field final(„÷–∑
+java:S1444*"/Make this "public static mainTable" field final(„÷–∑
