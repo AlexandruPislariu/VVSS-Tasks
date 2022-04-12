@@ -149,12 +149,21 @@ public class Controller {
 
     @FXML
     public void showFilteredTasks() {
-        Date start = getDateFromFilterField(datePickerFrom.getValue(), fieldTimeFrom.getText());
-        Date end = getDateFromFilterField(datePickerTo.getValue(), fieldTimeTo.getText());
+        Date start;
+        Date end;
 
-        Iterable<Task> filtered = service.filterTasks(start, end);
+        try {
+            start = getDateFromFilterField(datePickerFrom.getValue(), fieldTimeFrom.getText());
+            end = getDateFromFilterField(datePickerTo.getValue(), fieldTimeTo.getText());
+        }
+        catch(Exception e) {
+            errorMessage.showError("No dates selected", "Please select start date and end date!");
+            return;
+        }
 
-        ObservableList<Task> observableTasks = FXCollections.observableList((ArrayList) filtered);
+        Iterable<Task> filtered =  service.filterTasks(tasksList, start, end);
+
+        ObservableList<Task> observableTasks = FXCollections.observableList((ArrayList)filtered);
         tasks.setItems(observableTasks);
         updateCountLabel(observableTasks);
     }
