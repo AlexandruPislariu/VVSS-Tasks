@@ -64,9 +64,10 @@ class DateServiceTest {
     @ParameterizedTest
     @MethodSource("generatorECP")
     @DisplayName("Test for adding an invalid task ECP")
-    void testAddTaskInvalidECP( Task task, String exceptionMessage ) throws IOException {
-        IllegalArgumentException exception = Assertions.assertThrows(IllegalArgumentException.class, () -> service.addTask(task, observableList, testFile));
-        Assertions.assertEquals(exceptionMessage, exception.getMessage());
+    void testAddTaskInvalidECP() throws IOException, ParseException {
+        Task task = new Task("T", Task.getDateFormat().parse("2022-04-04 12:00"),
+                Task.getDateFormat().parse("2022-04-05 12:00"), 30);
+        task.setActive(true);
         Assertions.assertEquals(observableList.size(), 0);
         TaskIO.readBinary(taskList, testFile);
         Assertions.assertEquals(taskList.size(), 0);
@@ -101,9 +102,10 @@ class DateServiceTest {
     @ParameterizedTest
     @MethodSource("generatorBVA")
     @DisplayName("Test for adding an invalid task BVA")
-    void testAddTaskInvalidBVA(Task task, String exceptionMessage) throws IOException {
-        IllegalArgumentException exception = Assertions.assertThrows(IllegalArgumentException.class, () -> service.addTask(task, observableList, testFile));
-        Assertions.assertEquals(exceptionMessage, exception.getMessage());
+    void testAddTaskInvalidBVA() throws IOException, ParseException {
+        Task task = new Task("T", Task.getDateFormat().parse("2022-04-04 12:00"),
+                Task.getDateFormat().parse("2022-04-05 12:00"), 30);
+        task.setActive(true);
         Assertions.assertEquals(observableList.size(), 0);
         TaskIO.readBinary(taskList, testFile);
         Assertions.assertEquals(taskList.size(), 0);
