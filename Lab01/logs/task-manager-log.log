@@ -185,3 +185,25 @@
 2022-04-12 15:29:55 INFO  NewEditController:101 - new/edit window initializing
 2022-04-12 15:30:55 INFO  NewEditController:101 - new/edit window initializing
 2022-04-12 15:31:11 INFO  NewEditController:101 - new/edit window initializing
+2022-05-03 14:53:41 INFO  Main:37 - saved data reading
+2022-05-03 14:53:41 ERROR TaskIO:88 - IO exception reading or writing file
+2022-05-03 14:53:41 INFO  Main:42 - application start
+2022-05-03 14:53:41 INFO  Controller:90 - Main controller initializing
+2022-05-03 14:53:47 INFO  NewEditController:101 - new/edit window initializing
+2022-05-03 14:53:51 INFO  NewEditController:101 - new/edit window initializing
+2022-05-03 14:53:52 INFO  NewEditController:101 - new/edit window initializing
+2022-05-03 14:53:55 INFO  NewEditController:101 - new/edit window initializing
+2022-05-03 14:53:58 INFO  TaskInfoController:25 - task info window initializing
+2022-05-03 14:53:58 ERROR Controller:144 - error loading task-info.fxml
+2022-05-03 14:54:01 INFO  TaskInfoController:25 - task info window initializing
+2022-05-03 14:55:22 INFO  Main:37 - saved data reading
+2022-05-03 14:55:22 ERROR TaskIO:88 - IO exception reading or writing file
+2022-05-03 14:55:22 INFO  Main:42 - application start
+2022-05-03 14:55:22 INFO  Controller:90 - Main controller initializing
+2022-05-03 14:55:47 INFO  Main:37 - saved data reading
+2022-05-03 14:55:47 INFO  Main:42 - application start
+2022-05-03 14:55:48 INFO  Controller:90 - Main controller initializing
+2022-05-03 14:55:51 INFO  NewEditController:101 - new/edit window initializing
+2022-05-03 14:56:02 INFO  Main:37 - saved data reading
+2022-05-03 14:56:02 INFO  Main:42 - application start
+2022-05-03 14:56:02 INFO  Controller:90 - Main controller initializing

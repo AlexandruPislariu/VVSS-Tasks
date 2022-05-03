@@ -14,9 +14,11 @@ import java.util.Date;
 public class TasksService {
 
     private ArrayTaskList tasks;
+    private TaskValidator taskValidator;
 
-    public TasksService(ArrayTaskList tasks) {
+    public TasksService(ArrayTaskList tasks, TaskValidator taskValidator){
         this.tasks = tasks;
+        this.taskValidator = taskValidator;
     }
 
 
@@ -65,7 +67,7 @@ public class TasksService {
     }
 
     public Task addTask(Task task, ObservableList<Task> tasks, File tasksFile) {
-        TaskValidator.validate(task);
+        taskValidator.validate(task);
         tasks.add(task);
         TaskIO.rewriteFile(tasks, tasksFile);
         return task;

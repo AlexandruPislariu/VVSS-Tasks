@@ -10,7 +10,7 @@ public class TaskValidator {
     public TaskValidator() {
     }
 
-    public static void validate(Task task) {
+    public void validate(Task task) {
         if (task.isRepeated()) {
             validateRepeatableTask(task);
         } else {
@@ -18,7 +18,7 @@ public class TaskValidator {
         }
     }
 
-    public static void validateRepeatableTask(Task task) {
+    public void validateRepeatableTask(Task task) {
         if (task.getStartTime().after(task.getEndTime()))
             throw new IllegalArgumentException("Start date should be before end");
         if (task.getTitle() == null || task.getTitle().equals("")) {
@@ -34,7 +34,7 @@ public class TaskValidator {
         }
     }
 
-    public static void validateNonRepeatableTask(Task task) {
+    public void validateNonRepeatableTask(Task task) {
         if (task.getTitle() == null || task.getTitle().equals("")) {
             throw new IllegalArgumentException("Invalid title!");
         }

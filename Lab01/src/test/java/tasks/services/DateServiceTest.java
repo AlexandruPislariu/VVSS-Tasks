@@ -10,6 +10,9 @@ import tasks.model.ArrayTaskList;
 import tasks.model.LinkedTaskList;
 import tasks.model.Task;
 import tasks.model.TaskList;
+import tasks.services.TaskIO;
+import tasks.services.TasksService;
+import tasks.validators.TaskValidator;
 import tasks.view.Main;
 
 import java.io.File;
@@ -30,7 +33,7 @@ class DateServiceTest {
         testFile = new File(Main.class.getClassLoader().getResource("data/test_tasks.txt").getFile());
         taskList = new ArrayTaskList();
         observableList = FXCollections.observableArrayList(taskList.getAll());
-        service = new TasksService(taskList);
+        service = new TasksService(taskList, new TaskValidator());
     }
 
     @AfterEach

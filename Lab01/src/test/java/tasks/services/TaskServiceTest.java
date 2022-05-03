@@ -7,6 +7,9 @@ import tasks.model.ArrayTaskList;
 import tasks.model.LinkedTaskList;
 import tasks.model.Task;
 import tasks.model.TaskList;
+import tasks.services.TaskIO;
+import tasks.services.TasksService;
+import tasks.validators.TaskValidator;
 import tasks.view.Main;
 
 import java.io.File;
@@ -30,7 +33,7 @@ public class TaskServiceTest {
         testFile = new File(Main.class.getClassLoader().getResource("data/test_tasks.txt").getFile());
         taskList = new ArrayTaskList();
         observableList = FXCollections.observableArrayList(taskList.getAll());
-        service = new TasksService(taskList);
+        service = new TasksService(taskList, new TaskValidator());
     }
 
     @AfterEach
@@ -101,7 +104,7 @@ public class TaskServiceTest {
         observableList.add(t1);
         SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm");
         Date start = formatter.parse("2022-04-02 12:00");
-        Date end = formatter.parse("2022-04-04 12:00");
+        Date end = formatter.parse("2022-04-06 15:00");
         Iterable<Task> tasks = service.filterTasks(observableList, start, end);
         List<Task> filtered = StreamSupport.stream(tasks.spliterator(),false).collect(Collectors.toList());
         Assertions.assertEquals(filtered.size(),1);

@@ -5,20 +5,55 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbe79f98-8ba9-4627-a3ca-7e0c8d7562fb" name="Default Changelist" comment="initial version">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tasks/services/TaskServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_2_23_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tasks/model/TaskValidatorWithMockedTaskTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tasks/services/TaskIntegrationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tasks/services/TaskValidatorIntegrationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tasks/services/TasksServiceWithMockedTaskTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tasks/services/TasksServiceWithMockedTaskValidatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/6/26c7ae39591499fab3685c25bb4834dc2fc7cf24" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/1/31324894a484d06adcd87a923fb98e2c49cb815e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/f/4f01b9f8917f794cdf589fb86ab1f8dec2bc64a1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/3/63fe2cc9c3e91dd6fea9fe629ea649e64db0d708" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/6/665dec39384a747ccf12fd544bf02f4a3d18695a" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/d/7d63de46d8ec7dacaab386b187106455df813537" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/3/836e1c2cdc3b862532987d08f580ea8ff37c1ff7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/0/90f3d1b886ea9e6023b322a07a34e807fd489693" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/a/ba27869b1e0ea8fe162ea3b4618a07816f29da05" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/0/d0dce99a6a8ffdd051fd48f17348c7051696257c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/0/e0863ceba847dbe828ffdd5fa8207144974e4dc8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/2/e263b8ac64fabe5561c83360ddb6195e2a810f1f" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/b/eb67f05314178cc6b3a1e4f981a808f271e00c26" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/c/ecf3c385b36af4d118754ee8d9878c48978fcaa9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/7/f77a2442ed82eb8b7386f5c9a49162f894ad8a61" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/task-manager-log.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/task-manager-log.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/services/TaskIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/services/TaskIO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tasks/services/TasksService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/services/TasksService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/validators/TaskValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/validators/TaskValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/view/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/view/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tasks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tasks.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tasks/model/TaskTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tasks/model/TaskTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tasks/services/DateServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tasks/services/DateServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tasks/services/TaskServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tasks/services/TaskServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/data/tasks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/tasks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tasks/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tasks/controller/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data/test_tasks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/test_tasks.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tasks/services/TaskIO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tasks/services/TaskIO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/tasks/services/TasksService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tasks/services/TasksService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tasks/validators/TaskValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tasks/validators/TaskValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tasks/view/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tasks/view/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tasks/model/TaskTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tasks/model/TaskTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tasks/services/DateServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tasks/services/DateServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tasks/services/TaskServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tasks/services/TaskServiceTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +62,7 @@
   </component>
   <component name="ExportToHTMLSettings">
     <option name="OPEN_IN_BROWSER" value="true" />
-    <option name="OUTPUT_DIRECTORY" value="E:\VVSS\CamiVVSS_ro2020-2021\Labs\Proiecte\01_Tasks\reports" />
+    <option name="OUTPUT_DIRECTORY" value="C:\Fac\Sem6\VVSS\Lab\VVSS-Tasks\Docs" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -67,7 +102,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Docs" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -81,15 +116,18 @@
     <property name="settings.editor.selected.configurable" value="sonarlint" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="tasks.services" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="tasks.services" />
       <recent name="tasks.model" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
   </component>
-  <component name="RunManager" selected="JUnit.TaskServiceTest">
+  <component name="RunManager" selected="JUnit.TaskValidatorIntegrationTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tasks.view.Main" />
       <module name="Tasks" />
@@ -104,21 +142,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DateServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tasks.services.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tasks.services" />
-      <option name="MAIN_CLASS_NAME" value="tasks.services.DateServiceTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TaskServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Tasks" />
       <extension name="coverage">
@@ -126,54 +149,61 @@
           <option name="PATTERN" value="tasks.services.*" />
           <option name="ENABLED" value="true" />
         </pattern>
+        <pattern>
+          <option name="PATTERN" value="tasks.services.TasksService" />
+          <option name="ENABLED" value="true" />
+        </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tasks.services" />
       <option name="MAIN_CLASS_NAME" value="tasks.services.TaskServiceTest" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaskTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TaskValidatorIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Tasks" />
-      <useClassPathOnly />
       <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tasks.model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
         <pattern>
           <option name="PATTERN" value="tasks.services.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" value="14" />
-      <option name="PACKAGE_NAME" value="tasks.model" />
-      <option name="MAIN_CLASS_NAME" value="tasks.model.TaskTest" />
-      <option name="METHOD_NAME" value="" />
+      <option name="PACKAGE_NAME" value="tasks.services" />
+      <option name="MAIN_CLASS_NAME" value="tasks.services.TaskValidatorIntegrationTest" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tasks.model in Tasks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <useClassPathOnly />
+    <configuration name="TaskValidatorIntegrationTest.add_ValidTaskMock_ReturnsAddedTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tasks.model.*" />
+          <option name="PATTERN" value="tasks.services.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tasks.model" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="PARAMETERS" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="wholeProject" />
-      </option>
+      <option name="PACKAGE_NAME" value="tasks.services" />
+      <option name="MAIN_CLASS_NAME" value="tasks.services.TaskValidatorIntegrationTest" />
+      <option name="METHOD_NAME" value="add_ValidTaskMock_ReturnsAddedTask" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TasksServiceWithMockedTaskTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tasks.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tasks.services" />
+      <option name="MAIN_CLASS_NAME" value="tasks.services.TasksServiceWithMockedTaskTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -206,19 +236,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.tasks.model in Tasks" />
-      <item itemvalue="JUnit.TaskTest" />
-      <item itemvalue="JUnit.DateServiceTest" />
-      <item itemvalue="Maven.Tasks [exec:java]" />
       <item itemvalue="JUnit.TaskServiceTest" />
+      <item itemvalue="Maven.Tasks [exec:java]" />
+      <item itemvalue="JUnit.TaskValidatorIntegrationTest" />
+      <item itemvalue="JUnit.TaskValidatorIntegrationTest.add_ValidTaskMock_ReturnsAddedTask" />
+      <item itemvalue="JUnit.TasksServiceWithMockedTaskTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TaskValidatorIntegrationTest" />
+        <item itemvalue="JUnit.TasksServiceWithMockedTaskTest" />
+        <item itemvalue="JUnit.TaskValidatorIntegrationTest.add_ValidTaskMock_ReturnsAddedTask" />
         <item itemvalue="JUnit.TaskServiceTest" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.DateServiceTest" />
-        <item itemvalue="JUnit.TaskTest" />
-        <item itemvalue="JUnit.tasks.model in Tasks" />
       </list>
     </recent_temporary>
   </component>
@@ -281,6 +311,10 @@
       <workItem from="1648554512688" duration="5065000" />
       <workItem from="1648568040189" duration="1117000" />
       <workItem from="1649766324565" duration="1856000" />
+      <workItem from="1649768337390" duration="304000" />
+      <workItem from="1649778141005" duration="218000" />
+      <workItem from="1649778488297" duration="418000" />
+      <workItem from="1651576876583" duration="3839000" />
     </task>
     <task id="LOCAL-00001" summary="initial version">
       <created>1613577157958</created>
@@ -320,6 +354,17 @@
     <MESSAGE value="initial version" />
     <option name="LAST_COMMIT_MESSAGE" value="initial version" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/tasks/validators/TaskValidator.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
@@ -329,8 +374,9 @@
       <FILTER>tasks.model.*</FILTER>
       <FILTER>tasks.services.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Tasks_iml$TaskServiceTest.ic" NAME="TaskServiceTest Coverage Results" MODIFIED="1649767930447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Tasks_iml$TaskServiceTest.ic" NAME="TaskServiceTest Coverage Results" MODIFIED="1649768435181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>tasks.services.*</FILTER>
+      <FILTER>tasks.services.TasksService</FILTER>
     </SUITE>
   </component>
   <component name="simpleUML.UMLToolWindowPlugin">
