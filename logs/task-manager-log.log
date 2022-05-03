@@ -207,3 +207,4 @@
 2022-05-03 14:56:02 INFO  Main:37 - saved data reading
 2022-05-03 14:56:02 INFO  Main:42 - application start
 2022-05-03 14:56:02 INFO  Controller:90 - Main controller initializing
+2022-05-03 19:01:56 ERROR Task:36 - time below bound
